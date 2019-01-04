@@ -1,0 +1,16 @@
+extends _component/layout/base
+
+
+block config
+    -
+        var title = 'Welcome Quick Blog'
+        var description = 'Using super Quick Blog is easy and you can get 100/100 score on Google pagespeed insights '
+
+block content
+    h1=title
+    p=description
+    a(href="#continue") Click to continue reading or scroll down
+    #continue
+    p.lead A tank is an armoured fighting vehicle designed for front-line combat, with heavy firepower, strong armour, tracks and a powerful engine providing good battlefield maneuverability
+    p
+        small There are classes of tanks, some being larger and very heavily armored with high caliber guns, while others are smaller lightly armored and a small caliber and light gun. These smaller tanks move over terrain with speed and agility and can perform a reconnaissance role in addition to engaging enemy targets. The smaller faster tank would not normally engage in battle with a larger, heavily armored tank.
