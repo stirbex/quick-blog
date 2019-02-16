@@ -1,3 +1,18 @@
-$color-buttercup: #f1c40f;
+$theme: 'buttercup';
+
+$color-normal: #f1c40f;
+$color-dark: #f39c12;
+@if($theme == 'buttercup'){
+$color-normal: #f1c40f;
+$color-dark: #f39c12;
+}
+@if($theme == 'zest'){
+$color-normal: #f1c48f;
+$color-dark: #f30c12;
+}
+@if($theme == 'dark'){
+$color-normal: #2155c7;
+$color-dark: #a643af;
+}
 $color-golden-glass: #f39c12;
 $color-white: #fff;

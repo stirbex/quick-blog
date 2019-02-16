@@ -1,5 +1,4 @@
 
-
 html,
 body {
     height: 100%;
@@ -17,7 +16,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-image: radial-gradient(ellipse,$color-buttercup,$color-golden-glass);
+    background-image: radial-gradient(ellipse,yellow,$color-golden-glass);
 
     h1 {
         color: $color-white;
@@ -32,7 +31,7 @@ body {
         padding: 0.3rem 0.6rem;
         border-radius: 0.3rem;
         margin: 1rem;
-        border: 0.1rem solid $color-buttercup;
+        border: 0.1rem solid yellow;
         position: relative;
         background-color: red;
         padding-right: 1.5rem;
